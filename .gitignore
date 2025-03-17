@@ -35,3 +35,6 @@ db.sqlite3
 
 # Windows
 Thumbs.db
+
+# staticfiles
+staticfiles

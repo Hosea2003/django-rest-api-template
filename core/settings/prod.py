@@ -7,3 +7,7 @@ ALLOWED_HOSTS = ['localhost', get_host(APP_URL)]
 CSRF_TRUSTED_ORIGIN=[
     APP_URL
 ]
+
+STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
+
+STATIC_ROOT = "staticfiles"
