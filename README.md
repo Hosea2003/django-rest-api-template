@@ -43,3 +43,10 @@ This project is a template for building RESTful APIs using Django and Django RES
     ```
     http://127.0.0.1:8000/
     ```
+
+## Running in docker
+Configure the docker-compose to your preference, ex: you can change the container-name if you want.
+
+```bash
+    docker compose up --build
+```
